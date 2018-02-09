@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>animate完整动画</title>
+  <link rel="stylesheet" href="./css/animate.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0
+    }
+
+    .clearfloat:after {
+      display: block;
+      clear: both;
+      content: "";
+      visibility: hidden;
+      height: 0
+    }
+
+    .clearfloat {
+      zoom: 1
+    }
+
+    li {
+      list-style: none;
+      float: left;
+      margin: 70px;
+      position: relative
+    }
+
+    span:hover {
+      cursor: pointer;
+    }
+
+    .stylebox:nth-child(2n) span {
+      background-color: #409eff
+    }
+
+    .stylebox:nth-child(3n) span {
+      background-color: #fe8433;
+    }
+
+    span {
+      width: 100px;
+      height: 100px;
+      padding: 10px;
+      line-height: 100px;
+      background-color: yellowgreen;
+      text-align: center;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 700;
+      position: absolute;
+      animation: all 2s;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 style="text-align:center;line-height:100px;color:#555;">animate完整动画</h1>
+  <div class="stylebox clearfloat">
+    <h3 style="text-align:center;line-height:30px;color:#ccc;">其他</h3>
+    <ul class="clearfloat">
+      <li>
+        <span class="bounce">引起注意</span>
+      </li>
+      <li>
+        <span class="flash">闪烁</span>
+      </li>
+      <li>
+        <span class="pulse">脉冲</span>
+      </li>
+      <li>
+        <span class="rubberBand">橡皮筋</span>
+      </li>
+      <li>
+        <span class="shake">抖动</span>
+      </li>
+      <li>
+        <span class="swing">摆动</span>
+      </li>
+      <li>
+        <span class="tada">摇动</span>
+      </li>
+      <li>
+        <span class="wobble">晃动</span>
+      </li>
+      <li>
+        <span class="jello">果冻</span>
+      </li>
+      <li>
+        <span class="hinge">惊喜</span>
+      </li>
+      <li>
+        <span class="jackInTheBox">弹入</span>
+      </li>
+      <li>
+        <span class="rollIn">滚入</span>
+      </li>
+      <li>
+        <span class="rollOut">滚出</span>
+      </li>
+    </ul>
+  </div><br><br><br><br><br><br>
+  <div class="stylebox clearfloat">
+      <h3 style="text-align:center;line-height:30px;color:#ccc;">跳入跳出</h3>
+    <ul class="clearfloat">
+      <li>
+        <span class="bounceIn">跳入</span>
+      </li>
+      <li>
+        <span class="bounceInDown">从上跳入</span>
+      </li>
+      <li>
+        <span class="bounceInLeft">从右跳入</span>
+      </li>
+      <li>
+        <span class="bounceInRight">从左跳入</span>
+      </li>
+      <li>
+        <span class="bounceInUp">从下跳入</span>
+      </li>
+      <li>
+        <span class="bounceOut">跳出</span>
+      </li>
+      <li>
+        <span class="bounceOutDown">从下跳出</span>
+      </li>
+      <li>
+        <span class="bounceOutLeft">从左跳出</span>
+      </li>
+      <li>
+        <span class="bounceOutRight">从右跳出</span>
+      </li>
+      <li>
+        <span class="bounceOutUp">从上跳出</span>
+      </li>
+    </ul>
+
+  </div><br><br><br><br><br><br>
+  <div class="stylebox clearfloat">
+      <h3 style="text-align:center;line-height:30px;color:#ccc;">淡入淡出</h3>
+    
+    <ul class="clearfloat">
+      <li>
+        <span class="fadeIn">淡入</span>
+      </li>
+      <li>
+        <span class="fadeInDown">从上淡入</span>
+      </li>
+      <li>
+        <span class="fadeInDownBig">从最上淡入</span>
+      </li>
+      <li>
+        <span class="fadeInLeft">从左淡入</span>
+      </li>
+      <li>
+        <span class="fadeInLeftBig">从最左淡入</span>
+      </li>
+      <li>
+        <span class="fadeInRight">从右淡入</span>
+      </li>
+      <li>
+        <span class="fadeInRightBig">从最右淡入</span>
+      </li>
+      <li>
+        <span class="fadeInUp">从下淡入</span>
+      </li>
+      <li>
+        <span class="fadeInUpBig">从最下淡入</span>
+      </li>
+      <li>
+        <span class="fadeOut">淡出</span>
+      </li>
+      <li>
+        <span class="fadeOutDown">从下淡出</span>
+      </li>
+      <li>
+        <span class="fadeOutDownBig">从最下淡出</span>
+      </li>
+      <li>
+        <span class="fadeOutLeft">从左淡出</span>
+      </li>
+      <li>
+        <span class="fadeOutLeftBig">从最左淡出</span>
+      </li>
+      <li>
+        <span class="fadeOutRight">从右淡出</span>
+      </li>
+      <li>
+        <span class="fadeOutRightBig">从最右淡出</span>
+      </li>
+      <li>
+        <span class="fadeOutUp">从上淡出</span>
+      </li>
+      <li>
+        <span class="fadeOutUpBig">从最上淡出</span>
+      </li>
+    </ul>
+
+  </div><br><br><br><br><br><br>
+  <div class="stylebox clearfloat">
+      <h3 style="text-align:center;line-height:30px;color:#ccc;">弹入弹出</h3>
+    
+    <ul class="clearfloat">
+      <li>
+        <span class="flip">轻弹</span>
+      </li>
+      <li>
+        <span class="flipInX">轻弹入x</span>
+      </li>
+      <li>
+        <span class="flipInY">轻弹入y</span>
+      </li>
+      <li>
+        <span class="flipOutX">轻弹出x</span>
+      </li>
+      <li>
+        <span class="flipOutY">轻弹出y</span>
+      </li>
+    </ul>
+
+  </div><br><br><br><br><br><br>
+  <div class="stylebox clearfloat">
+      <h3 style="text-align:center;line-height:30px;color:#ccc;">刹车</h3>
+    
+    <ul class="clearfloat">
+      <li>
+        <span class="lightSpeedIn">刹车进入</span>
+      </li>
+      <li>
+        <span class="lightSpeedOut">刹车退出</span>
+      </li>
+    </ul>
+
+  </div><br><br><br><br><br><br>
+  <div class="stylebox clearfloat">
+      <h3 style="text-align:center;line-height:30px;color:#ccc;">旋入旋出</h3>
+    
+    <ul class="clearfloat">
+      <li>
+        <span class="rotateIn">旋入</span>
+      </li>
+      <li>
+        <span class="rotateInDownLeft">从左下旋入</span>
+      </li>
+      <li>
+        <span class="rotateInDownRight">从右下旋入</span>
+      </li>
+      <li>
+        <span class="rotateInUpLeft">从左上旋入</span>
+      </li>
+      <li>
+        <span class="rotateInUpRight">从右上旋入</span>
+      </li>
+      <li>
+        <span class="rotateOut">旋出</span>
+      </li>
+      <li>
+        <span class="rotateOutDownLeft">从右下旋出</span>
+      </li>
+      <li>
+        <span class="rotateOutDownRight">从左下旋出</span>
+      </li>
+      <li>
+        <span class="rotateOutUpLeft">从左上旋出</span>
+      </li>
+      <li>
+        <span class="rotateOutUpRight">从右上旋出</span>
+      </li>
+    </ul>
+
+  </div><br><br><br><br><br><br>
+  <div class="stylebox clearfloat">
+    <h3 style="text-align:center;line-height:30px;color:#ccc;">滑入滑出</h3>
+    <ul class="clearfloat">
+      <li>
+        <span class="slideInUp">从下滑入</span>
+      </li>
+      <li>
+        <span class="slideInDown">从上滑入</span>
+      </li>
+      <li>
+        <span class="slideInLeft">从左滑入</span>
+      </li>
+      <li>
+        <span class="slideInRight">从右滑入</span>
+      </li>
+      <li>
+        <span class="slideOutUp">向上滑出</span>
+      </li>
+      <li>
+        <span class="slideOutDown">向下滑出</span>
+      </li>
+      <li>
+        <span class="slideOutLeft">向左滑出</span>
+      </li>
+      <li>
+        <span class="slideOutRight">向右滑出</span>
+      </li>
+    </ul>
+
+  </div><br><br><br><br><br><br>
+  <div class="stylebox clearfloat">
+      <h3 style="text-align:center;line-height:30px;color:#ccc;">放大缩小</h3>
+    <ul class="clearfloat">
+      <li>
+        <span class="zoomIn">放大进入</span>
+      </li>
+      <li>
+        <span class="zoomInDown">从上放大进入</span>
+      </li>
+      <li>
+        <span class="zoomInLeft">从左放大进入</span>
+      </li>
+      <li>
+        <span class="zoomInRight">从右放大进入</span>
+      </li>
+      <li>
+        <span class="zoomInUp">从下放大进入</span>
+      </li>
+      <li>
+        <span class="zoomOut">缩小退出</span>
+      </li>
+      <li>
+        <span class="zoomOutDown">缩小向下退出</span>
+      </li>
+      <li>
+        <span class="zoomOutLeft">缩小向左退出</span>
+      </li>
+      <li>
+        <span class="zoomOutRight">缩小向右退出</span>
+      </li>
+      <li>
+        <span class="zoomOutUp">缩小向上退出</span>
+      </li>
+    </ul>
+  </div>
+  <input type="text" id="className" style="opacity: 0;">
+</body>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script>
+  $('li span').on('click', function () {
+    $('#className').val($(this).attr('class')).select();
+    document.execCommand("Copy");
+    alert('复制成功!')
+  })
+</script>
+
+</html>
